@@ -50,16 +50,16 @@ const Sidebar = () => {
                 </Link>
               </div>
             </div>
-            <Link to="widget.html" className="nav-item nav-link">
+            <Link to="/widget" className="nav-item nav-link">
               <i className="fa fa-th me-2"></i>Widgets
             </Link>
-            <Link to="form.html" className="nav-item nav-link active">
+            <Link to="/form" className="nav-item nav-link active">
               <i className="fa fa-keyboard me-2"></i>Forms
             </Link>
-            <Link to="table.html" className="nav-item nav-link">
+            <Link to="/table" className="nav-item nav-link">
               <i className="fa fa-table me-2"></i>Tables
             </Link>
-            <Link to="chart.html" className="nav-item nav-link">
+            <Link to="/chart" className="nav-item nav-link">
               <i className="fa fa-chart-bar me-2"></i>Charts
             </Link>
             <div className="nav-item dropdown">
