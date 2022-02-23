@@ -7,7 +7,7 @@ const Routes = () => (
     <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/element" component={Element} />
-        <Route component={Error} />
+        {/* <Route component={Error} /> */}
     </Switch>
 );
 
