@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import RoutedApp from "./routes/routes";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
+import { LayoutComponent } from "./components/layout";
 
 ReactDOM.render(
     <React.StrictMode>
         <BrowserRouter>
-            <RoutedApp />
+            <LayoutComponent />
         </BrowserRouter>
     </React.StrictMode>,
     document.getElementById("root")
