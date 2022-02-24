@@ -1,6 +1,6 @@
 import Routes from "../../routes/routes";
-import Footer from "../Footer";
-import Header from "../Header";
+import Footer from "../../Header&Footer/Footer";
+import Header from "../../Header&Footer/Header";
 
 const LayoutCompnent = () => {
     return (

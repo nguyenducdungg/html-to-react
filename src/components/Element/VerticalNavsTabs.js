@@ -15,7 +15,7 @@ const VerticalNavsTabs = () => {
                         <button
                             className="nav-link active"
                             id="v-pills-home-tab"
-                            data-bs-toggle="pill"
+                            databs--toggle="pill"
                             data-bs-target="#v-pills-home"
                             type="button"
                             role="tab"

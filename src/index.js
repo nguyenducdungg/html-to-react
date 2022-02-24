@@ -3,8 +3,10 @@ import ReactDOM from "react-dom";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import { LayoutComponent } from "./components/layout";
+// import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./scss/bootstrap.scss";
-import "./scss/style.css";
+import "./scss/style.scss";
 ReactDOM.render(
     <React.StrictMode>
         <BrowserRouter>
