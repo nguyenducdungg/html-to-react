@@ -1,7 +1,13 @@
 import Routes from "../../routes/routes";
+<<<<<<< HEAD
 import Footer from "../Footer";
 import Header from "../Header";
 import Sidebar from "../Sidebar";
+=======
+import Footer from "../../Header&Footer/Footer";
+import Header from "../../Header&Footer/Header";
+
+>>>>>>> hoan
 const LayoutCompnent = () => {
   return (
     <>
